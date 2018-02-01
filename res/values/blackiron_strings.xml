@@ -395,4 +395,6 @@
     <string name="blackiron_settings_dash_title">Black Iron Settings</string>
     <string name="blackiron_settings_summary">Additional features</string>
 
+    <!-- Notification log -->
+    <string name="notification_log_summary">Show notifications history log</string>
 </resources>
