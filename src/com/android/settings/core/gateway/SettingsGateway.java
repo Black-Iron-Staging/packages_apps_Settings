@@ -198,6 +198,7 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 import com.android.settings.blackiron.tether.WifiTetherClientManager;
 
 import com.blackiron.settings.BlackironSettings;
+import com.blackiron.settings.fragments.SmartPixels;
 
 public class SettingsGateway {
 
@@ -383,7 +384,8 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             BlackironSettings.class.getName(),
-            WifiTetherClientManager.class.getName()
+            WifiTetherClientManager.class.getName(),
+            SmartPixels.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -431,5 +433,6 @@ public class SettingsGateway {
             Settings.MemtagPageActivity.class.getName(),
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.BlackironSettingsActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
             }
