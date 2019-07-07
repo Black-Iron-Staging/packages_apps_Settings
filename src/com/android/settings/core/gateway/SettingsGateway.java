@@ -206,6 +206,7 @@ import com.android.settings.wifi.savedaccesspoints2.SavedAccessPointsWifiSetting
 import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.blackiron.settings.BlackironSettings;
+import com.blackiron.settings.fragments.ui.SmartPixels;
 
 public class SettingsGateway {
 
@@ -401,6 +402,7 @@ public class SettingsGateway {
             HearingDevicePairingFragment.class.getName(),
             BlackironSettings.class.getName(),
             RunningServices.class.getName(),
+            SmartPixels.class.getName(),
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {
@@ -449,5 +451,6 @@ public class SettingsGateway {
             Settings.NavigationModeSettingsActivity.class.getName(),
             Settings.BlackironSettings.class.getName(),
             Settings.DevRunningServicesActivity.class.getName(),
+            Settings.SmartPixelsActivity.class.getName(),
     };
 }
