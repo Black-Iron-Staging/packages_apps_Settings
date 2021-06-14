@@ -29,4 +29,7 @@
 
     <!-- Turn on Wi-Fi automatically -->
     <bool name="config_wifi_wakeup" translatable="false">false</bool>
+
+    <!-- Whether to show peak refresh rate in display settings -->
+    <bool name="config_show_peak_refresh_rate_switch">false</bool>
 </resources>
