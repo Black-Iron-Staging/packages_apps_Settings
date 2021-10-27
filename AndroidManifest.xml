@@ -5283,6 +5283,18 @@
         </activity>
 
         <!-- This is the longest AndroidManifest.xml ever. -->
+        <activity android:name="com.blackiron.settings.fragments.about.ChangelogActivity"
+                android:label="@string/changelog_blackiron_title"
+                android:theme="@style/Theme.SubSettingsBase"
+                android:enabled="true"
+                android:exported="true"
+                android:taskAffinity="com.android.settings"
+                android:parentActivityName="Settings">
+            <intent-filter android:priority="70">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
 
         <!-- BlackironSettings -->
         <activity android:name="Settings$BlackironSettingsActivity"
