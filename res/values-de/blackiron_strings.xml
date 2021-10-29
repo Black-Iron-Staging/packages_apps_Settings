@@ -9,4 +9,7 @@
     <string name="blackiron_version">BlackIron-Version</string>
     <string name="blackiron_version_default">Unbekannt</string>
 
+    <!-- Platform version -->
+    <string name="platform_version">Platform version</string>
+
 </resources>
