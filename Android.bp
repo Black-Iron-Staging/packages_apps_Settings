@@ -119,6 +119,7 @@ android_library {
         "vendor.lineage.fastcharge-V1.0-java",
         "vendor.lineage.trust-V1.0-java",
         "colorpickerview",
+        "SystemUISharedLib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
