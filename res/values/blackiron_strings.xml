@@ -641,4 +641,7 @@
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Brightness control</string>
     <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+
+    <!-- Summary for the accessibility preference to adjust the display size, font size, bold text, and high contrast text features. [CHAR LIMIT=NONE] -->
+    <string name="accessibility_text_reading_options_summary">Customize display size, font &amp; text</string>
 </resources>
