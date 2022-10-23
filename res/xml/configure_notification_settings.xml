@@ -211,7 +211,7 @@
             android:summary="@string/less_boring_heads_up_summary"
             android:defaultValue="false" />
 
-        <org.derpfest.support.preferences.SystemSettingSwitchPreference
+        <org.blackiron.support.preferences.SystemSettingSwitchPreference
             android:key="notification_guts_kill_app_button"
             android:order="29"
             android:title="@string/notification_guts_kill_app_button_title"
