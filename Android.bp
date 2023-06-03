@@ -118,6 +118,7 @@ android_library {
         "VendorSupport-preference",
         "vendor.lineage.fastcharge-V1.0-java",
         "vendor.lineage.trust-V1.0-java",
+        "colorpickerview",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
@@ -189,4 +190,9 @@ filegroup {
 android_library_import {
     name: "glide",
     aars: ["libs/glide-4.16.0.aar"],
+}
+
+android_library_import {
+    name: "colorpickerview",
+    aars: ["libs/colorpickerview-release.aar"],
 }
