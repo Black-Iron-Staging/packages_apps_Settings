@@ -21,6 +21,12 @@
     android:title="@string/firmware_version"
     settings:keywords="@string/keywords_android_version">
 
+    <!-- BlKi logo -->
+    <com.android.settingslib.widget.LayoutPreference
+        android:layout="@layout/blki_logo"
+        android:key="blki_logo"
+        android:selectable="false" />
+
     <!-- Android version -->
     <Preference
         android:key="os_firmware_version"
