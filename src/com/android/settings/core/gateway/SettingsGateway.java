@@ -197,6 +197,8 @@ import com.android.settings.wifi.tether.WifiTetherSettings;
 
 import com.blackiron.settings.BlackironSettings;
 
+import com.google.android.settings.security.SecurityHubDashboard;
+
 public class SettingsGateway {
 
     /**
@@ -380,7 +382,8 @@ public class SettingsGateway {
             RegionalPreferencesEntriesFragment.class.getName(),
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
-            BlackironSettings.class.getName()
+            BlackironSettings.class.getName(),
+            SecurityHubDashboard.class.getName()
     };
 
     public static final String[] SETTINGS_FOR_RESTRICTED = {

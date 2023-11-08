@@ -120,6 +120,7 @@ android_library {
         "vendor.lineage.trust-V1.0-java",
         "colorpickerview",
         "SystemUISharedLib",
+        "SettingsGoogle-lib",
     ],
 
     plugins: ["androidx.room_room-compiler-plugin"],
