@@ -16,6 +16,11 @@
     <string name="blackiron_version">BlackIron version</string>
     <string name="blackiron_version_default">Unknown</string>
 
+    <!-- Units -->
+    <string name="default_string">Default</string>
+    <string name="unit_milliseconds">milliseconds</string>
+    <string name="unit_pixels">dp</string>
+
     <!-- Platform version -->
     <string name="platform_version">Plattform-Version</string>
 
