@@ -54,13 +54,22 @@ android_library {
         "SpaPrivilegedLib-defaults",
     ],
 
-    srcs: ["src/**/*.java", "src/**/*.kt"],
+    srcs: [
+           "src/**/*.java",
+           "src/**/*.kt",
+           "BlackironSettings/src/**/*.java",
+    ],
+
+    aaptflags: ["--extra-packages com.blackiron.settings"],
+
     resource_dirs: [
         "res",
         "res-export", // for external usage
         "res-product",
         "TouchGestures/res",
+        "BlackironSettings/res"
     ],
+
     static_libs: [
         "androidx-constraintlayout_constraintlayout",
         "androidx.slice_slice-builders",
@@ -117,6 +126,10 @@ android_library {
         "telephony-common",
         "ims-common",
     ],
+
+    optimize: {
+        proguard_flags_files: ["proguard.flags"],
+    },
 }
 
 platform_compat_config {

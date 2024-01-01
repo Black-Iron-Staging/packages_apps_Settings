@@ -390,4 +390,9 @@
 
     <!-- App details: open play store link if app is user installed -->
     <string name="app_play_store" translatable="false">Google Play</string>
+
+    <!-- Black Iron Settings -->
+    <string name="blackiron_settings_dash_title">Black Iron Settings</string>
+    <string name="blackiron_settings_summary">Additional features</string>
+
 </resources>
