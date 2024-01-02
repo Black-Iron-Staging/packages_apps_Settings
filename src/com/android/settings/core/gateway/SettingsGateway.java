@@ -199,8 +199,6 @@ import com.android.settings.blackiron.tether.WifiTetherClientManager;
 
 import com.blackiron.settings.BlackironSettings;
 
-import com.google.android.settings.security.SecurityHubDashboard;
-
 public class SettingsGateway {
 
     /**
@@ -385,7 +383,6 @@ public class SettingsGateway {
             BatteryInfoFragment.class.getName(),
             UserAspectRatioDetails.class.getName(),
             BlackironSettings.class.getName(),
-            SecurityHubDashboard.class.getName(),
             WifiTetherClientManager.class.getName()
     };
 
