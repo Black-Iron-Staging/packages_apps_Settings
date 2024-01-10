@@ -54,7 +54,7 @@
 
     </PreferenceCategory>
 
-    <PreferenceCategory
+<!--    <PreferenceCategory
         android:title="@string/navbar_gesture_handle_category">
 
         <org.blackiron.support.preferences.SecureSettingSwitchPreference
@@ -68,7 +68,7 @@
             android:title="@string/back_gesture_haptic_title"
             android:summary="@string/back_gesture_haptic_summary"
             android:defaultValue="false" />
-    </PreferenceCategory>
+    </PreferenceCategory> -->
 
     <PreferenceCategory
         android:title="@string/back_height_category">
@@ -102,13 +102,13 @@
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
 
-        <ListPreference
+<!--        <ListPreference
             android:key="navigation_bar_edge_long_swipe"
             android:dialogTitle="@string/navigation_bar_edge_long_swipe_title"
             android:title="@string/navigation_bar_edge_long_swipe_title"
             android:entries="@array/hardware_keys_action_entries"
             android:entryValues="@array/hardware_keys_action_values"
-            android:persistent="false" />
+            android:persistent="false" /> -->
 
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
