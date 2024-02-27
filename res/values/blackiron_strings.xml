@@ -561,21 +561,6 @@
     <string name="global_vpn_summary_on">Force all traffic on the device through this VPN, including work profile and other users. Note: When enabled, you will not be able to use a separate VPN in a work profile or other users</string>
     <string name="global_vpn_summary_any_vpn_active">You need to disable all active VPN connections first to enable this</string>
 
-    <!-- Back gesture height -->
-    <string name="back_height_low_label">Full</string>
-    <string name="back_height_high_label">Bottom</string>
-    <string name="back_height_category">Back gesture height</string>
-    <string name="back_height_summary">Screen height valid for back gesture</string>
-
-    <!-- Back gesture animation -->
-    <string name="navbar_gesture_handle_category">Gesture handle</string>
-    <string name="back_gesture_arrow_title">Back gesture animation</string>
-    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
-
-    <!-- Haptic feedback -->
-    <string name="back_gesture_haptic_title">Haptic feedback</string>
-    <string name="back_gesture_haptic_summary">Vibrate when performing a back gesture</string>
-
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Force stop button</string>
     <string name="notification_guts_kill_app_button_summary">Show force stop button in the notification\'s longpress menu</string>
@@ -719,16 +704,6 @@
     <string name="min_refresh_rate_title">Minimum refresh rate</string>
     <string name="max_refresh_rate_title">Maximum refresh rate</string>
     <string name="low_power_refresh_rate_title_custom">Low power refresh rate</string>
-
-    <!-- Gesture navbar length -->
-    <string name="gesture_navbar_length_title">Pill length</string>
-    <string name="short_label">Short</string>
-    <string name="long_label">Long</string>
-
-    <!-- Gesture navbar radius -->
-    <string name="gesture_navbar_radius_title">Pill radius</string>
-    <string name="thin_label">Thin</string>
-    <string name="thick_label">Thick</string>
 
     <!-- Doze on double tap -->
     <string name="double_tap_title">Double tap</string>
