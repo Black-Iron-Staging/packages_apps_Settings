@@ -21,6 +21,14 @@
     android:key="top_level_settings">
 
     <com.android.settings.widget.HomepagePreference
+        android:key="top_level_blackiron_settings"
+        android:title="@string/blackiron_settings_dash_title"
+        android:summary="@string/blackiron_settings_summary"
+        android:icon="@drawable/ic_settings_blackiron"
+        android:order="-160"
+        android:fragment="com.blackiron.settings.BlackironSettings"/>
+
+    <com.android.settings.widget.HomepagePreference
         android:fragment="com.android.settings.network.NetworkDashboardFragment"
         android:icon="@drawable/ic_settings_wireless"
         android:key="top_level_network"

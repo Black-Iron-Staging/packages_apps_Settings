@@ -5043,6 +5043,20 @@
             android:authorities="${applicationId}.androidx-startup"
             tools:node="remove" />
 
+        <!-- BlackironSettings -->
+        <activity android:name=".Settings$BlackironSettingsActivity"
+            android:label="@string/blackiron_settings_dash_title"
+            android:icon="@drawable/ic_homepage_blackiron"
+            android:parentActivityName="com.android.settings"
+            android:exported="true">
+            <intent-filter android:priority="69">
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="com.android.settings.SHORTCUT" />
+            </intent-filter>
+            <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
+                android:value="com.blackiron.settings.BlackironSettings" />
+        </activity>
+
         <activity android:name=".backup.transport.TransportActivity"
                   android:label="@string/backup_transport_title"
                   android:icon="@drawable/ic_settings_backup"
