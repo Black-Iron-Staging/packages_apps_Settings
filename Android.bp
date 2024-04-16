@@ -118,7 +118,6 @@ android_library {
         "vendor.lineage.fastcharge-V1.0-java",
 
         // Blackiron dependencies
-        "VendorSupport-preference",
         "androidx.fragment_fragment",
         "androidx.fragment_fragment-ktx",
         "androidx.preference_preference-ktx",
